@@ -89,6 +89,10 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+                <form action="/notification" method="post">
+                    {{ csrf_field() }}
+                    <button>Submit</button>
+                </form>
             </div>
         </div>
     </body>
